@@ -1,0 +1,114 @@
+graph_info:
+  description: Grid graph with Safety Charging Area as node 0
+  weight_rules:
+    long_distance: 2.0
+    medium_distance: 1.0
+    short_distance: 0.5
+shortest_paths:
+  from_node_1:
+    start_node: 1
+    goal_node: 0
+    route:
+    - 1
+    - 0
+    total_distance: 0.5
+    description: 1 -> 0
+  from_node_2:
+    start_node: 2
+    goal_node: 0
+    route:
+    - 2
+    - 3
+    - 0
+    total_distance: 1.5
+    description: 2 -> 3 -> 0
+  from_node_3:
+    start_node: 3
+    goal_node: 0
+    route:
+    - 3
+    - 0
+    total_distance: 1.0
+    description: 3 -> 0
+  from_node_4:
+    start_node: 4
+    goal_node: 0
+    route:
+    - 4
+    - 3
+    - 0
+    total_distance: 2.0
+    description: 4 -> 3 -> 0
+  from_node_5:
+    start_node: 5
+    goal_node: 0
+    route:
+    - 5
+    - 4
+    - 3
+    - 0
+    total_distance: 2.5
+    description: 5 -> 4 -> 3 -> 0
+  from_node_6:
+    start_node: 6
+    goal_node: 0
+    route:
+    - 6
+    - 5
+    - 4
+    - 3
+    - 0
+    total_distance: 4.5
+    description: 6 -> 5 -> 4 -> 3 -> 0
+  from_node_7:
+    start_node: 7
+    goal_node: 0
+    route:
+    - 7
+    - 6
+    - 5
+    - 4
+    - 3
+    - 0
+    total_distance: 6.5
+    description: 7 -> 6 -> 5 -> 4 -> 3 -> 0
+  from_node_8:
+    start_node: 8
+    goal_node: 0
+    route:
+    - 8
+    - 11
+    - 2
+    - 3
+    - 0
+    total_distance: 5.5
+    description: 8 -> 11 -> 2 -> 3 -> 0
+  from_node_9:
+    start_node: 9
+    goal_node: 0
+    route:
+    - 9
+    - 10
+    - 1
+    - 0
+    total_distance: 4.5
+    description: 9 -> 10 -> 1 -> 0
+  from_node_10:
+    start_node: 10
+    goal_node: 0
+    route:
+    - 10
+    - 1
+    - 0
+    total_distance: 2.5
+    description: 10 -> 1 -> 0
+  from_node_11:
+    start_node: 11
+    goal_node: 0
+    route:
+    - 11
+    - 2
+    - 3
+    - 0
+    total_distance: 3.5
+    description: 11 -> 2 -> 3 -> 0
